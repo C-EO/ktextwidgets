@@ -354,11 +354,6 @@ Q_SIGNALS:
      */
     void textModeChanged(KRichTextEdit::Mode mode);
 
-    /**
-     * Emitted whenever the user has finished making a selection. (on mouse up)
-     */
-    void selectionFinished();
-
 protected:
 
     /**
